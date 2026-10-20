@@ -60,7 +60,7 @@ jobs:
 | `org` | | Scan every repository of this organization instead |
 | `since`, `until` | incident window | Override the window (RFC3339) |
 | `lookback` | `7d` | Also check re-runs of runs created this long before the window (max `30d`) |
-| `version` | `0.5.0` | runsweep release to run |
+| `version` | `0.6.0` | runsweep release to run |
 | `token` | `github.token` | Token runsweep scans with |
 | `fail-on` | `findings` | `findings`: fail when a job is AFFECTED or POSSIBLE. `unchecked`: also fail when not everything could be checked. `never`: only fail on a runsweep error |
 
