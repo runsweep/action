@@ -32,7 +32,7 @@ inputs:
   version:
     description: runsweep release to run, without the leading v.
     required: false
-    default: 0.6.0
+    default: 0.6.1
   token:
     description: Token runsweep scans with. Needs read access to Actions, Contents and Metadata of the scanned repositories; scanning other repositories or an organization needs a token other than the default.
     required: false
